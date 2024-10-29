@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Livro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Livro</h1>
+        <form action="cadastro_livro.php" method="post">
+            <label>Título</label>
+            <input type="text" name="titulo" required>
+            
+            <label>Número de Páginas</label>
+            <input type="number" name="numero_paginas" required>
+            
+            <label>Suporte Físico</label>
+            <input type="text" name="suporte_fisico" required>
+            
+            <label>ISBN</label>
+            <input type="text" name="isbn" required>
+            
+            <label>Descrição</label>
+            <input type="text" name="descricao" required>
+            
+            <label>Ficha</label>
+            <input type="text" name="ficha" required>
+            
+            <label>Registro</label>
+            <input type="text" name="registro" required>
+            
+            <label>Disponibilidade</label>
+            <input type="text" name="disponibilidade" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <br>
+        <a href="index.html">Voltar</a>
+    </div>
+</body>
+</html>

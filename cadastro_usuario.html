@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Usuário</h1>
+        <form action="cadastro_usuario.php" method="post">
+            <label>Nome</label>
+            <input type="text" name="nome" required>
+            
+            <label>Data de Nascimento</label>
+            <input type="date" name="data_nascimento" required>
+            
+            <label>Sexo</label>
+            <input type="text" name="sexo" required>
+            
+            <label>Endereço</label>
+            <input type="text" name="endereco" required>
+            
+            <label>Telefone</label>
+            <input type="text" name="telefone" required>
+            
+            <label>E-mail</label>
+            <input type="email" name="email" required>
+            
+            <label>CPF</label>
+            <input type="text" name="cpf" required>
+            
+            <label>Número do Cartão da Biblioteca</label>
+            <input type="number" name="numero_cartao" required>
+            
+            <label>Senha do Cartão</label>
+            <input type="password" name="senha_cartao" required>
+            
+            <button type="submit">Cadastrar</button>
+        </form>
+        <br>
+        <a href="index.html">Voltar</a>
+    </div>
+</body>
+</html>
